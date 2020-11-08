@@ -3,21 +3,82 @@
     padding: 0px;
     box-sizing: border-box} 
     /*nollställer browserns inställningar */
-div.vlogo{
+
+body {
+    background-color: white;
+    font-size: 16px;
+}
+
+header { /* ??kolla om bg går att göra transparent? */
+
+  background: url("bilder/header.png");
+  height: 96vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  /* padding-bottom: 5%; */
+  text-align: center;
+
+ 
+}
+
+.header-logo{
+    position: relative;
+    /* transform: translate(-50%, -50%); */
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-size: 2rem;
+    font-weight: 2rem;
+    top: 1%;
+    /* left: 50%; */ 
+}
+
+
+
+div.p-intro{
     
-    background-color:pink; 
-    font-size: 40px;
-    text-align: center;
+    background-color: aquamarine;
+    height: 5rem;
+    border: 2px solid rgb(131, 80, 80);
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    
+   
+
+
 }
-.header{ /* ??kolla om bg går att göra transparent? */
-background-color: rgb(252, 164, 0); 
+
+.video-sect {
+    position: relative;
+    margin-top: 3rem;
+    background-color: black;
+    height: 40vh;
+    display: flex;
+    justify-content:center; }
+
+.intro-text-header{
+    
+    position: absolute;
+    align-items: center
+    
+    
 }
+
+.intro-text-main{
+    position: absolute;
+    
+    ;
+}
+
 h1{
     font-size: 50px;
 }
+
 h3{
     font-size: 20px;
 }
+
 .no1-03{
 background-color: lemonchiffon;
 
