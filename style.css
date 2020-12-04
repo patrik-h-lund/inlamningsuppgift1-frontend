@@ -1,99 +1,241 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box} 
-    /*nollställer browserns inställningar */
-
-body {
-    background-color: white;
-    font-size: 16px;
-}
-
-header { /* ??kolla om bg går att göra transparent? */
-
-  background: url("bilder/header.png");
-  height: 96vh;
-  background-position: center;
-  background-size: cover;
-  background-repeat:no-repeat;
-  /* padding-bottom: 5%; */
-  text-align: center;
-
  
-}
-
-.header-logo{
-    position: relative;
-    /* transform: translate(-50%, -50%); */
-    padding-top: 2rem;
-    padding-left: 2rem;
-    font-size: 2rem;
-    font-weight: 2rem;
-    top: 1%;
-    /* left: 50%; */ 
-}
-
-
-
-div.p-intro{
-    
-    background-color: aquamarine;
-    height: 5rem;
-    border: 2px solid rgb(131, 80, 80);
-    display: flex;
-    justify-content:flex-start;
-    flex-direction: column;
     
    
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+} 
+    /*nollställer browserns inställningar */
 
 
+
+img{
+    width: 100%;
+    position: fit;
+}
+
+/* <------Header-----> */
+   /* Voodoo*/
+.header-logo{
+    display: flex;
+    justify-content: center;
+    padding-top:2%;
+    
+   
+    
+}
+
+
+.HeyTip{
+    font-size: 2rem;
+}
+
+h1, h2 {
+    font-weight: 800;
+    font-size: rem;
+
+}
+
+
+
+
+/* First sect - hey guys */
+.first-sect{
+    /* background-color: blue; */
+    display: flex;
+    
+    justify-content: center;
+    
+   
+}
+ 
+.intro-hey-guys-h2{
+    /* background-color: yellow; */
+    text-align: right;
+}
+
+.intro-hey-guys{
+    /* background-color: aqua; */
+    color: black;
+    
+}
+
+.intro-hey-guys2{
+    /* background-color: thistle; */
+    text-align: right;
+
+}
+
+    
+.section-youtubaility{
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    padding: 1px;
+    padding-left: 15%;
+    padding-right: 5%;
+    justify-content: center;
+}
+
+.box {
+    /* background-color: lightcoral; */
+    width: 100%; 
+    margin: px; 
+
+    }
+
+.article-youtubability1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color:white;
+    text-align: left;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-weight: 300;
+   
+}
+
+.second-sect-img{
+   display: flex;
+   justify-content: center;
 }
 
 .video-sect {
     position: relative;
-    margin-top: 3rem;
-    background-color: black;
-    height: 40vh;
+    margin-top: rem;
+    background-color: rgb(32, 32, 32);
+    height: 30vh;
     display: flex;
-    justify-content:center; }
-
-.intro-text-header{
-    
-    position: absolute;
-    align-items: center
-    
-    
+    justify-content: center;
 }
 
-.intro-text-main{
-    position: absolute;
-    
-    ;
+.section-third{
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    padding-right: 15%;
 }
 
-h1{
-    font-size: 50px;
-}
 
-h3{
-    font-size: 20px;
-}
 
-.no1-03{
-background-color: lemonchiffon;
-
-}
-
-.voodoo{
-    top: 50%;
-    left: 50%;
-    color: red;
-    transform: translate(-50%, -50%);
-
+.article-youtubability2{
+    /* background-color: khaki; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: right;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-weight: 300;
     
 }
 
-    /*background-color: purple
 
-    . alltid i början på class
+.four-sect{
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
 
+}
+
+.four-sect-text{
+    font-weight: 300
+
+}
+
+
+.fifth-sect{
+    /* background-color: lightcoral; */
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    height: 40vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4vh;
+    padding-bottom: 10vh;
+    background-image: url(bilder/Q1_newsletter-02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.fifth-sect-article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-weight: 300;
+    text-align: center
+}
+
+
+.footer{
+    background-color: rgb(32, 32, 32);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+
+  
+}
+.footer-container{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-article1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+
+.footer-article2{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: center;
+}
+
+.foot3, .foot4{
+    font-style: italic;
+}
+
+ 
+
+@media (max-width: 480px) {
+    .text {
+      font-size: 16px;
+      
+    }
+    div.section-youtubaility{
+        flex-direction: column;
+        padding: 5%
+    }
+    
+    .section-third{
+        flex-direction: column;
+        padding: 5%;
+        text-align: right;
+    }
+}
+
+
+
+
+@media (max-width: 280px) {
+   .four-sect{
+       margin-bottom: 8%;
+   }
+}
